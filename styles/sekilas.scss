@@ -1,0 +1,33 @@
+
+    $small: 768px;
+    $medium: 992px;
+
+    .sekilas {
+        //some CSS
+        @media screen and (max-width: $small) {
+            //do Smth
+            .jastan-adalah {
+                font-size: 12px;
+                margin-top: 8px;
+            }
+            .logo-jastan, .jastan-adalah {
+                text-align: center;
+            }
+
+            .image-sekilas {
+                display: none !important;
+            }
+        }
+        @media screen and (min-width: $medium) {
+            //do Smth
+            .jastan-adalah {
+                text-align: start;
+                margin-top: 12px;
+                text-align: left;
+                font-size: 18px;
+            }
+            .image-sekilas {
+                display: block !important;
+            }
+        }
+    }

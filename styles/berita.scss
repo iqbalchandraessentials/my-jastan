@@ -1,0 +1,36 @@
+
+    $small: 768px;
+    $medium: 992px;
+
+    .berita {
+        .title {
+            color: cornflowerblue;
+        }
+        .tanggal {
+            color: indianred;
+            font-weight: 500;
+            font-size: 14px;
+        }
+        @media screen and (max-width: $small) {
+            .info {
+                margin-top: 8px;
+            }
+            .judul-berita {
+                line-height: normal;
+                font-weight: 500;
+                font-size: 14px;
+            }
+            .artikle {
+                margin-top: 14px;
+            }
+        }
+        @media screen and (min-width: $medium) {
+         .info {
+             margin-top: 8px;
+         }
+         .judul-berita {
+             line-height: normal;
+             font-weight: 500;
+         }
+        }
+    }
